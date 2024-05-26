@@ -11,7 +11,7 @@ Welcome to my professional portfolio! Here, you will find a curated collection o
 
 | Project | Area of Study | Tools | Description |
 |--------------|-----------------|-------|---------------------|
-| 🚗 [Supermarket Warehouse](https://github.com/katieusername/uber-taxi-project) | May 2023 | Python, GCP (Storage, Compute Engine, BigQuery), Mage, Looker Studio | Developed and implemented an end-to-end ETL pipeline for processing NYC Trip Record data. The pipeline encompassed extracting raw data, performing data transformation using Python, applying fact and dimensional data modelling techniques, orchestrating the pipeline on Mage, and ultimately creating a dashboard using Looker Studio. |
+| 🏪 [Supermarket Datawarehouse](https://github.com/hengkisan/azure-supermarket-datawarehouse) | Azure, Data Warehouse | Pyspark, Azure Data Factory, Azure Databricks | Developed a data warehouse for supermarket sales using Azure Databricks, Data Factory, and Data Lake Gen 2. Databricks with PySpark transforms raw data into target tables by reading from weekly folders. The sales table is partitioned by branch_id and receipt_id for efficient updates. Azure Data Factory orchestrates the pipeline, checking for folder existence and triggering Databricks Notebooks as needed, with a Tumbling Window Trigger scheduling weekly runs. This setup ensures efficient, regular updates and accurate data management.|
 
 ## SQL
 
