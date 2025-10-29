@@ -7,7 +7,7 @@ Welcome to my professional portfolio! Here, you will find a curated collection o
 - [Machine Learning](#machine-learning)
 - [Visualization](#visualization)
 
-## Data Engineering
+## Credit Scoring
 
 | Project | Area of Study | Tools | Description |
 |--------------|-----------------|-------|---------------------|
