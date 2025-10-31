@@ -11,7 +11,9 @@ Welcome to my professional portfolio! Here, you will find a curated collection o
 
 | Project | Area of Study | Tools | Description |
 |--------------|-----------------|-------|---------------------|
-| 🏪 [Supermarket Datawarehouse](https://github.com/hengkisan/azure-supermarket-datawarehouse) | Azure, Data Warehouse | Pyspark, Azure Data Factory, Azure Databricks | Developed a data warehouse for supermarket sales using Azure Databricks, Data Factory, and Data Lake Gen 2. Databricks with PySpark transforms raw data into target tables by reading from weekly folders. The sales table is partitioned by branch_id and receipt_id for efficient updates. Azure Data Factory orchestrates the pipeline, checking for folder existence and triggering Databricks Notebooks as needed, with a Tumbling Window Trigger scheduling weekly runs. This setup ensures efficient, regular updates and accurate data management.|
+| 🧮 [Credit Scoring Framework](https://github.com/hengkisan/credit-scoring-framework-python) | Credit Risk Modeling | Python, Pandas, Scikit-learn, OptBinning | Built a modular and automated credit scoring framework that streamlines data preprocessing, optimal binning, WoE/IV transformation, logistic regression training, and interpretable scorecard generation. Supports AUC evaluation, JSON scorecard export, and in-time/out-of-time validation for production-ready credit risk models. |
+
+
 
 ## Data Engineering
 
